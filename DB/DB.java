@@ -10,9 +10,9 @@ import java.util.Vector;
 
 public class DB {
 	public static final String databaseDriver = "com.mysql.cj.jdbc.Driver";
-	public static final String databaseUrl =  "jdbc:mysql://localhost:3306/village";
-	public static final String databaseUser = "root";
-	public static final String databasePassword = "1234";
+	public static final String databaseUrl =  "jdbc:mysql://localhost";
+	public static final String databaseUser = "";
+	public static final String databasePassword = "";
 	
 	public static Connection conn = null;
 	public static PreparedStatement pstmt = null;
